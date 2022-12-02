@@ -1,0 +1,124 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    width: 100vw;
+    /* height: auto; */
+    overflow-x: hidden;
+}
+.navbar{
+    width: 100vw;
+    height: 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 6rem 1rem 6rem;
+}
+.navbar a{
+    width: 110px;
+    height: 100%;
+}
+.navbar img{
+    /* margin-left: 4rem; */
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    /* padding: 1rem 50rem 0 0; */
+    margin-top: 15px;
+    gap: 1.5rem;
+    color: black;
+}
+.navbar li{
+    font-size: 0.8vw;
+}
+
+.right {
+    font-size: 0.8vw;
+    color: rgb(0, 0, 0);
+    /* margin-left: 65rem; */
+    display: flex;
+    gap: 2rem;
+    /* margin-top: -3rem; */
+}
+
+.centerdiv{
+    display: flex;
+    gap: 5rem;
+    margin-left: 30vw;
+    margin-top: 5vw;
+}
+.centerdiv p{
+    margin-left: -3vw;
+    display: flex;
+}
+
+
+.responsive {
+    margin: 44px 67px 5px 69px;
+    padding: 16px 6px;
+    float: left;
+    width: 90%;
+    background-color: #ffffff;
+    display: flex;
+    gap: 2rem;
+}
+  
+  /* .responsive:hover{
+    background-color: #2d2a2a;
+    
+  } */
+ 
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  } 
+  
+
+ .microsoft {
+    background-image: url(image/gldn-MSFT-hero-Edge_VP5-1596x600.avif);
+ 
+    margin-top: 22rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    height: 30vw;
+    
+}
+
+.for {
+    font-size: 2vw;
+    font-weight: 500;
+    margin-left: 4.5rem;
+    margin-top: 3rem;
+    margin-bottom: -3rem;
+}
+
+footer{
+    margin-top: 5rem;
+}
+
+.social{
+    margin-left: 5rem;
+}
+
+.social a {
+    font-size: 21px;
+    color: black;
+    margin-left: 1rem;
+}
